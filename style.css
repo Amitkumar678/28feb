@@ -1,0 +1,46 @@
+.box{
+    border: 2px solid black;
+    width: 140px;
+    height: 140px;
+    box-shadow: 2px 2px 8px red;
+    text-shadow: 3px 4px 5px blue;
+}
+body{
+    margin: 40px;
+}
+.rotatebox{
+    height: 120px;
+    width: 120px;
+    padding: 10px;
+    border: 2px solid black;
+    transition: width 2s ease-in;
+    background-color: aqua;
+    box-shadow: 3px 3px red;
+
+}
+.rotatebox:hover{
+    width: 400px; 
+}
+.transformbox{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 2px solid black;
+    transition: transform 2s ease-in;
+    box-shadow: 4px 5px blue;  
+}
+.transformbox:hover{
+    transform: rotate(360deg);
+}
+.transformboxx{
+    height: 200px;
+    width: 200px;
+    background-color: hotpink;
+    border: 2px solid black;
+    transition: transform 2s ease-in-out;
+    box-shadow: 10px 15px yellow;
+}
+.transformboxx:hover{
+    transform: translateX(500px);
+
+}
